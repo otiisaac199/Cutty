@@ -19,7 +19,7 @@ let Observer = new IntersectionObserver(
     });
   },
   {
-    threshold: 1,
+    threshold: 0,
   }
 );
 items.forEach((i) => {
