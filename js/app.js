@@ -7,6 +7,8 @@ bars.addEventListener("click", () => {
   console.log("working");
 });
 
+// Intersection Observer
+
 let items = document.querySelectorAll(".observer-p");
 
 let Observer = new IntersectionObserver(
@@ -26,6 +28,7 @@ items.forEach((i) => {
   Observer.observe(i);
 });
 
+// slider
 let sliderIndex = 0;
 showSlides();
 function showSlides() {
