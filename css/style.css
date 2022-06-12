@@ -148,6 +148,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 25px;
 }
 
 .header .header-content p {
@@ -410,6 +411,7 @@ body {
 .food-content .after-food-content-txt p {
   font-weight: 600;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .food-content .after-food-content-txt a {
