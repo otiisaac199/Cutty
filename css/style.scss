@@ -28,7 +28,12 @@ body {
 .sign-in {
   border: 1px solid $color-2;
   border-radius: 5px;
-  padding: 10px 20pc !important;
+  padding: 10px 0 !important;
+  width: 100%;
+  display: inline-block;
+}
+.sign-in-cont {
+  width: 70%;
 }
 .menu-ul {
   display: flex;
@@ -45,6 +50,9 @@ body {
   z-index: 10;
   top: 7pc;
   left: 0;
+  li {
+    text-align: center;
+  }
   a {
     color: $color-2;
     font-weight: bold;
